@@ -34,5 +34,7 @@ def flatten2(array):
 flatten_and_sort2 = lambda arr: sorted([d2 for d1 in arr for d2 in d1])
 
 # Test Zone:
+
+p = [[3, 2], [4, 6, 5], [], [9, 8]]
 l = [[3, 2, 1], [4, 6, 5], [], [9, 7, 8]]
 print(flatten_and_sort2(l))
