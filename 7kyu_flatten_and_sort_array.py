@@ -29,6 +29,8 @@ def flatten_and_sort(array):
 def flatten2(array):
     return sorted([dim2 for dim1 in array for dim2 in dim1])
 
+
+
 flatten_and_sort2 = lambda arr: sorted([d2 for d1 in arr for d2 in d1])
 
 # Test Zone:
