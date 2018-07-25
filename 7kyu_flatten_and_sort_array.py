@@ -15,7 +15,7 @@ Please, keep in mind, that JavaScript is by default sorting objects alphabetical
 http://stackoverflow.com/questions/6093874/why-doesnt-the-sort-function-of-javascript-work-well
 """
 
-#First Approaches
+#First Approache:
 def flatten_and_sort(array):
 
     # Empty list
@@ -24,7 +24,7 @@ def flatten_and_sort(array):
         arr += l
     return sorted(arr)
 
-# 2nd Approaches
+# 2nd Approache:
 
 def flatten2(array):
     return sorted([dim2 for dim1 in array for dim2 in dim1])
